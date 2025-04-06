@@ -1,0 +1,46 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFFFC4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.dialog {
+  background-color: #EFEFEFD9;
+  padding: 2rem;
+  border-radius: 10px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.dialogInput{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.input{
+  padding: 0.5rem;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 2px 2px 2px rgb(128, 122, 122);
+}
+
+.firstInputDiv,
+.secondInputDiv {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+ .btnDiv{
+  display: flex;
+ }
