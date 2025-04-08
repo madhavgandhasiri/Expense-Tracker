@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: space-around;
   overflow: hidden;
-  padding: 1%;
 }
 
 .header {
@@ -41,16 +40,9 @@
   justify-content: center;
   text-align: center;
   gap: 10px;
+  padding-bottom: 10px;
 }
 
-.piechart {
-  width: 16vw;               
-  height: 16vw;             
-  background-color: green;
-  border-radius: 50%;       
-  /* min-width: 100px; 
-  min-height: 100px; */
-}
 
 .lower {
   height: 50%;
@@ -66,6 +58,67 @@
   width: 65%;
   background-color: white;
   border-radius: 10px;
+  padding: 1rem;
+}
+
+.transacDiv{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content:space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ccc; 
+}
+
+.transacleft{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+
+}
+
+.transacIcon {
+  font-size: 1.5rem;
+  /* margin-right: 10px; */
+  display: flex;
+  align-items: center;
+  background-color: rgb(209, 205, 205);
+  border-radius: 50%;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+}
+
+.transacTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 6rem;
+}
+
+.transacTitle p{
+  color: #9b9b9b;
+  font-size: 15px;
+}
+
+.transacPrice h3{
+  color: #F4BB4A;
+  padding-right: 20px;
+}
+
+.transacPrice img{
+  height: 50px;
+  width: 50px;
+}
+
+.transacPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 12rem;
+  align-items: center;
 }
 
 .topExpenses {
@@ -73,6 +126,7 @@
   width: 25%;
   background-color: white;
   border-radius: 10px;
+  padding: 20px;
 }
 
 p {
@@ -100,20 +154,13 @@ p {
     padding-top: 1rem;
   }
 
-  .piechart {
-    width: 60vw;
-    height: 90vw;
-    background-color: green;
-    border-radius: 50%;
-    margin: 1rem auto;
-  }
-
   .transactions,
   .topExpenses {
-    width: 90%;
+    width: auto;
     margin: 0.5rem;
     height: auto;
     min-height: 200px;
+    min-width: 350px;
   }
 }
 

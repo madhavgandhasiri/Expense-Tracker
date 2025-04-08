@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./AddButton.module.css"
 
-function AddButton({text}){
+function AddButton({text, onClick}){
   return (
     <div>
-      <button className={styles.addBtn}>{text}</button>
+      <button type="submit" className={styles.addBtn} onClick={onClick}>{text}</button>
     </div>
   )
 }
