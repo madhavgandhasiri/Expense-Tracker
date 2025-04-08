@@ -81,7 +81,6 @@ function ExpenseTracker() {
   const defaultCategories = ["Food", "Entertainment", "Travel"];
 
   const categoryData = defaultCategories.map((cat) => {
-    // const found = expenses.find((exp) => exp.category === cat);
     const total = expenses
       .filter((exp) => exp.category === cat)
       .reduce((sum, curr) => sum + Number(curr.price), 0);
