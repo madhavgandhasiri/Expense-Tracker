@@ -143,6 +143,7 @@ function DialogBox({
                   required
                   className={styles.input}
                   value={title}
+                  name="title"
                   onChange={(e) => setTitle(e.target.value)}
                 />
                 <input
@@ -151,6 +152,7 @@ function DialogBox({
                   min="1"
                   className={styles.input}
                   value={price}
+                  name="price"
                   onChange={(e) => setPrice(e.target.value)}
                 />
               </div>
@@ -158,6 +160,7 @@ function DialogBox({
                 <select
                   className={styles.input}
                   value={category}
+                  name="category"
                   onChange={(e) => setCategory(e.target.value)}
                 >
                   <option value="" disabled>
@@ -172,6 +175,7 @@ function DialogBox({
                   placeholder="dd/mm/yyyy"
                   className={styles.input}
                   value={date}
+                  name="date"
                   onChange={(e) => setDate(e.target.value)}
                 />
               </div>
@@ -199,6 +203,7 @@ function DialogBox({
                   min="1"
                   className={styles.input}
                   value={income}
+                  name="income"
                   onChange={(e) => setIncome(Number(e.target.value))}
                 />
               </div>
@@ -225,6 +230,7 @@ function DialogBox({
                   required
                   className={styles.input}
                   value={title}
+                  name="title"
                   onChange={(e) => setTitle(e.target.value)}
                 />
                 <input
@@ -233,6 +239,7 @@ function DialogBox({
                   min="1"
                   className={styles.input}
                   value={price}
+                  name="price"
                   onChange={(e) => setPrice(e.target.value)}
                 />
               </div>
@@ -240,6 +247,7 @@ function DialogBox({
                 <select
                   className={styles.input}
                   value={category}
+                  name="category"
                   onChange={(e) => setCategory(e.target.value)}
                 >
                   <option value="" disabled>
@@ -255,6 +263,7 @@ function DialogBox({
                   placeholder="dd/mm/yyyy"
                   className={styles.input}
                   value={date}
+                  name="date"
                   onChange={(e) => setDate(e.target.value)}
                 />
               </div>
