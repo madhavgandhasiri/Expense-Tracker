@@ -168,7 +168,7 @@ function DialogBox({
                   <option value="Entertainment">Entertainment</option>
                 </select>
                 <input
-                  type="date"
+                  type="text"
                   placeholder="dd/mm/yyyy"
                   className={styles.input}
                   value={date}
@@ -251,7 +251,7 @@ function DialogBox({
                 </select>
 
                 <input
-                  type="date"
+                  type="text"
                   placeholder="dd/mm/yyyy"
                   className={styles.input}
                   value={date}
