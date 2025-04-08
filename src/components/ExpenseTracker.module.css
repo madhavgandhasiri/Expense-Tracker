@@ -141,7 +141,7 @@ p {
 
 @media (max-width: 768px) {
   .container {
-    overflow-y: auto;
+    overflow-y:scroll;
   }
 
   .upper,
