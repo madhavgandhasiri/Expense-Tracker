@@ -83,7 +83,6 @@
 
 .transacIcon {
   font-size: 1.5rem;
-  /* margin-right: 10px; */
   display: flex;
   align-items: center;
   background-color: rgb(209, 205, 205);
@@ -146,9 +145,9 @@ p {
 }
 
 @media (max-width: 768px) {
-  .container {
+  /* .container {
     overflow-y:scroll;
-  }
+  } */
 
   .upper,
   .lower {

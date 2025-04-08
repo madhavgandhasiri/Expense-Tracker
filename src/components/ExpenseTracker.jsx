@@ -89,9 +89,7 @@ function ExpenseTracker() {
 
   return (
     <div className={styles.container}>
-      {/* <div className={styles.header}> */}
-        <h1>Expense Tracker</h1>
-      {/* </div> */}
+      <h1>Expense Tracker</h1>
       <div className={styles.upper}>
         <div className={styles.wallet}>
           <p>Wallet Balance: ₹{balance}</p>
